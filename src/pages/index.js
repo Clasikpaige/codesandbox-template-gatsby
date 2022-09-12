@@ -57,8 +57,8 @@ const descriptionStyle = {
 }
 
 const docLink = {
-  text: "Documentation",
-  url: "https://www.gatsbyjs.com/docs/",
+  text: "premium offer",
+  url: "https://www.jaraexpress.net",
   color: "#8954A8",
 }
 
@@ -81,38 +81,38 @@ const badgeStyle = {
 // data
 const links = [
   {
-    text: "Tutorial",
+    text: "join communities",
     url: "https://www.gatsbyjs.com/docs/tutorial/",
     description:
-      "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
+      "A great place to get started if you're new to web development. Designed to guide you through setting up your first project.",
     color: "#E95800",
   },
   {
-    text: "How to Guides",
+    text: "bitpay",
     url: "https://www.gatsbyjs.com/docs/how-to/",
     description:
-      "Practical step-by-step guides to help you achieve a specific goal. Most useful when you're trying to get something done.",
+      "make instant payment with zero fee with offline authentication.",
     color: "#1099A8",
   },
   {
     text: "Reference Guides",
     url: "https://www.gatsbyjs.com/docs/reference/",
     description:
-      "Nitty-gritty technical descriptions of how Gatsby works. Most useful when you need detailed information about Gatsby's APIs.",
+      "Nitty-gritty technical descriptions of how community works. Most useful when you need detailed information about omricon's courses.",
     color: "#BC027F",
   },
   {
     text: "Conceptual Guides",
     url: "https://www.gatsbyjs.com/docs/conceptual/",
     description:
-      "Big-picture explanations of higher-level Gatsby concepts. Most useful for building understanding of a particular topic.",
+      "Big-picture explanations of higher-level omricon concepts. Most useful for hands on projects with workspace.",
     color: "#0D96F2",
   },
   {
     text: "Plugin Library",
     url: "https://www.gatsbyjs.com/plugins",
     description:
-      "Add functionality and customize your Gatsby site or app with thousands of plugins built by our amazing developer community.",
+      "Add functionality and customize your community course or project with thousands of plugins built by our amazing developer community.",
     color: "#8EB814",
   },
   {
@@ -120,7 +120,7 @@ const links = [
     url: "https://www.gatsbyjs.com/cloud",
     badge: true,
     description:
-      "Now you’re ready to show the world! Give your Gatsby site superpowers: Build and host on Gatsby Cloud. Get started for free!",
+      "Now you’re ready to show the world! Give your omricon project superpowers: Build and host on the Cloud. Get started for free!",
     color: "#663399",
   },
 ]
@@ -131,16 +131,17 @@ const IndexPage = () => {
     <main style={pageStyles}>
       <title>Home Page</title>
       <h1 style={headingStyles}>
-        Congratulations
+       Welcome To
         <br />
-        <span style={headingAccentStyles}>— you just made a Gatsby site! </span>
-        <span role="img" aria-label="Party popper emojis">
-          🎉🎉🎉
+        <span style={headingAccentStyles}>— Emeet, your first class Metaverse community..! </span>
+        <span role="img" aria-label="none">
+        
         </span>
       </h1>
       <p style={paragraphStyles}>
-        Edit <code style={codeStyles}>src/pages/index.js</code> to see this page
-        update in real-time.{" "}
+        <span style={headingAccentStyles}>— join </span>
+         <code style={codeStyles}>signup/login</code> to connect with people &
+        explore our community.{" "}
         <span role="img" aria-label="Sunglasses smiley emoji">
           😎
         </span>
@@ -151,6 +152,7 @@ const IndexPage = () => {
             style={linkStyle}
             href={`${docLink.url}?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter`}
           >
+          
             {docLink.text}
           </a>
         </li>
